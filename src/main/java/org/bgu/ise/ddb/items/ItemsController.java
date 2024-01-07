@@ -71,8 +71,8 @@ public class ItemsController extends ParentController {
 	public void fillMediaItems(HttpServletResponse response){
 		System.out.println("was here");
 		String server_name = "132.72.64.124";
-		String user_name = "gabyl";
-		String password = "BFLit/#L";
+		String user_name = "username";
+		String password = "pass";
 		String connectionUrl = "jdbc:sqlserver://" + server_name + ":1433;databaseName=" + user_name + ";user=" + user_name + ";"
 				+ "password=" + password + ";encrypt=false;";
 		// Define connection to SQL SERVER:
